@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>360 Photo</title>
+    <script src="https://aframe.io/releases/0.3.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+    	<a-assets>
+    		<img id="halfdome" src="halfdome.jpg" />
+    	</a-assets>
+    	<a-camera wasd-controls="enabled: false;"></a-camera>
+    	<a-sky src="#halfdome"></a-sky>
+    </a-scene>
+  </body>
+</html>
