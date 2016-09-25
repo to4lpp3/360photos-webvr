@@ -1,1 +1,1 @@
-# 360photos-webvr
+# 360photo-webvr
